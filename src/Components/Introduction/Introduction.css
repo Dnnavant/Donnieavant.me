@@ -5,10 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #e0e0e030 50%, transparent 0),
-    linear-gradient(-135deg, #e0e0e030 50%, transparent 0);
-  background-size: 10em 10em;
-  background-color: #ffffff;
   scroll-margin-top:80px;
 }
 
@@ -28,16 +24,17 @@
   display: inline-block;
   justify-content: center;
   align-content: center;
+  color: rgb(255, 255, 255);
 }
 
 .intro h1 {
   font-size: 3.5rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(145, 145, 145, 0.5);
   padding: 30px;
   margin-bottom: 25px;
 }
 .intro h2 {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #b16d00;
   padding: 10px;
   line-height: 2.5rem;
 }
@@ -45,7 +42,7 @@
 /* Button Styling */
 .btn-1 {
   margin-top: 50px;
-  background-color: steelblue;
+  background-color: #b16d00;
   color: white;
   border: none;
   font-size: 18px;

@@ -1,0 +1,30 @@
+/* HomeSection.css */
+.HS-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.HS-logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 50vh; /* 50% of the viewport height */
+}
+
+.HS-logo {
+  width: 100px; /* Adjust the width of the logo */
+}
+
+.HS-title {
+  margin-top: 88px;
+  margin-left: 25px;
+  font-size: 5.3rem; /* Adjust the font size of the title */
+}
+
+.HS-subTitle {
+  margin-bottom: 200px;
+  /* Additional styling for the subtitle if needed */
+}

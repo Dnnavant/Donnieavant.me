@@ -12,9 +12,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      
       <HomeSection />
-      {/* <Introduction /> */}
+      <Introduction />
       
       {/* <ProfileCard /> */}
       

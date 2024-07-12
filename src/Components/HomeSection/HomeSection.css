@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 50vh;
+    border: 2px solid green;/* border to see work areas*/
 }
 .HS-logoContainer {
   display: flex;

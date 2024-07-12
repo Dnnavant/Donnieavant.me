@@ -1,64 +1,60 @@
-/* Home Section Styling */
 .home-section {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  scroll-margin-top:80px;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
+  position: relative;
+  padding: 50px 0;
 }
 
 .intro {
-  height: 50%;
-  width: 75%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  text-align: center;
-  display: inline-block;
-  justify-content: center;
-  align-content: center;
-  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profile-image img {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Ensures the image is circular */
+  border: 2px solid #fff; /* Optional: Add a border around the image */
+}
+
+.intro-content {
+  flex: 1;
+  margin-right: 20px; /* Adjust spacing between text and image */
 }
 
 .intro h1 {
-  font-size: 3.5rem;
-  text-shadow: 2px 2px 4px rgba(145, 145, 145, 0.5);
-  padding: 30px;
-  margin-bottom: 25px;
-}
-.intro h2 {
-  text-shadow: 2px 2px 4px #b16d00;
-  padding: 10px;
-  line-height: 2.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-/* Button Styling */
+.intro h2 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #444;
+}
+
 .btn-1 {
-  margin-top: 50px;
-  background-color: #b16d00;
-  color: white;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
   border: none;
-  font-size: 18px;
-  padding: 12px 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
-  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
   cursor: pointer;
 }
-.btn-1 a {
-  text-decoration: none;
-  color: white;
-}
 
-.btn-1:hover {
-  background-color: rgb(39, 76, 106);
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+.btn-1 a {
+  color: #fff;
+  text-decoration: none;
 }
